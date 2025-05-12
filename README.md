@@ -98,8 +98,7 @@ Whether you're working on solo projects, team collaborations, or open-source con
 
 1. Install the extension from [VS Code Marketplace](#)
 
-2. Ensure Ollama is installed.
-[![Ollama][Ollama.js]][Ollama-url]
+2. Ensure [![Ollama][Ollama.io]][Ollama-url] is installed.
 
 3.  Download your preferred model:
    ```sh
