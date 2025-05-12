@@ -1,0 +1,55 @@
+{
+  "name": "autocomment",
+  "displayName": "autoComment",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "autocomment.getComment",
+        "title": "Auto Comment",
+        "category": "Comment"
+      },
+      {
+        "command": "autocomment.setModel",
+        "title": "Set Model",
+        "category": "Comment"
+      }
+    ],
+    "configuration": {
+    "type": "object",
+    "title": "AutoComment Configuration",
+    "properties": {
+      "autocomment.model": {
+        "type": "string",
+        "default": "qwen:0.5b",
+        "description": "Model to use for generating comments (e.g., qwen:0.5b, deepseek-r1:latest, wizardlm2:latest)"
+      }
+    }
+  }
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "@types/vscode": "^1.99.0",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1",
+    "eslint": "^9.21.0"
+  },
+  "dependencies": {
+    "ollama": "^0.5.14"
+  }
+}
