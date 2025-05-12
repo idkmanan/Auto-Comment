@@ -96,7 +96,7 @@ Whether you're working on solo projects, team collaborations, or open-source con
 
 ### Installation
 
-1. Install the extension from [VS Code Marketplace](#)
+1. Install the extension from [VS Code Marketplace][Vsmarket-url]
 
 2. Ensure [![Ollama][Ollama.io]][Ollama-url] is installed.
 
@@ -167,3 +167,4 @@ Whether you're working on solo projects, team collaborations, or open-source con
 [Vscode-url]: https://code.visualstudio.com/api
 [Ollama.io]: https://img.shields.io/badge/Ollama-7C4DFF?style=for-the-badge&logo=ollama&logoColor=white
 [Ollama-url]: https://ollama.com/download
+[Vsmarket-url]: https://marketplace.visualstudio.com/vscode
