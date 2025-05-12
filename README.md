@@ -81,6 +81,7 @@ Whether you're working on solo projects, team collaborations, or open-source con
 ### Built With
 
 * [![Node][Node.js]][Node-url]
+* [![Ollama][Ollama.io]][Ollama-url]
 * [![JavaScript][javascr.js]][javascr-url]
 * [![Vscode][Vscode.js]][Vscode-url]
 
