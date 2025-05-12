@@ -31,7 +31,7 @@
       "autocomment.model": {
         "type": "string",
         "default": "qwen:0.5b",
-        "description": "Model to use for generating comments (e.g., qwen:0.5b, deepseek-r1:latest, wizardlm2:latest)"
+        "description": "Model to use for generating comments (e.g., qwen:0.5b, deepseek-r1:latest, wizardlm2:latest, qwen3:0.6b)"
       }
     }
   }

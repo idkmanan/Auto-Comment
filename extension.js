@@ -144,7 +144,7 @@ function activate(context) {
 
 	//model change
 	const setModelCommand = vscode.commands.registerCommand('autocomment.setModel', async () => {
-		const models = ['qwen:0.5b', 'deepseek-r1:latest', 'wizardlm2:latest'];
+		const models = ['qwen:0.5b', 'deepseek-r1:latest', 'wizardlm2:latest', 'qwen3:0.6b'];
 	
 		const selected = await vscode.window.showQuickPick(models, {
 			placeHolder: 'Choose a model for AutoComment',
@@ -163,7 +163,7 @@ async function comment(userPrompt) {
 	let respText = '';
 	try {
 		const config = vscode.workspace.getConfiguration('autocomment');
-		const selectedModel = config.get('model') || 'qwen:0.5b';
+		const selectedModel = config.get('model') || 'qwen3:0.6b';
 
 		const streamResponse = await ollama.chat({
 			model: selectedModel,
