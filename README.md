@@ -1,4 +1,4 @@
-<!-- Improved compatibility of Forgot something link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<!-- Improved compatibility of 🔝 link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a id="readme-top"></a>
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
@@ -74,7 +74,7 @@ Auto-Comment is a powerful VS Code extension designed to automatically generate 
 
 Whether you're working on solo projects, team collaborations, or open-source contributions, maintaining clear and structured comments is crucial—but writing them manually can be tedious.
 
-<p align="right">(<a href="#readme-top">Forgot something</a>)🔝</p>
+<p align="right"><a href="#readme-top">🔝</a></p>
 
 
 
@@ -84,7 +84,7 @@ Whether you're working on solo projects, team collaborations, or open-source con
 * [![JavaScript][javascr.js]][javascr-url]
 * [![Vscode][Vscode.js]][Vscode-url]
 
-<p align="right"><a href="#readme-top">Forgot something</a>🔝</p>
+<p align="right"><a href="#readme-top">🔝</a></p>
 
 
 
@@ -115,7 +115,7 @@ Whether you're working on solo projects, team collaborations, or open-source con
     }
     ```
 
-<p align="right">(<a href="#readme-top">Forgot something</a>)🔝</p>
+<p align="right"><a href="#readme-top">🔝</a></p>
 
 
 
@@ -152,7 +152,7 @@ Whether you're working on solo projects, team collaborations, or open-source con
 
 * For quick insertion, just type // and accept the suggestion
 
-<p align="right">(<a href="#readme-top">Forgot something</a>)🔝</p>
+<p align="right"><a href="#readme-top">🔝</a></p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
